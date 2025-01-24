@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Maker</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <main id="container" class="container">
+        <form id="form" class="form">
+            <label for="aadhaar">Aadhaar Number</label>
+            <input type="text" id="aadhaar" class="formInput" placeholder="Enter your aadhaar number">
+            <label for="name">Name</label>
+            <input type="text" id="name" class="formInput" placeholder="Enter your name">
+            <label for="name">नाम</label>
+            <input type="text" id="name" class="formInput" placeholder="नाम लिखें"> <br>
+            <label for="dob">Date of birth</label>
+            <input type="date" id="dob" class="formInput">
+            <select id="gender" class="gender">
+                <option value="">Gender</option>
+                <option value="पुरुष/MALE">Male</option>
+                <option value="महिला/FEMALE">Female</option>
+                <option value="OTHER">Third Gender</option>
+            </select>
+            <label for="photo"> Picture</label>
+            <input type="file" accept="image/*" id="photo" class="formInput"> <br>
+           <address class="homeAddress">
+            <h3>Address</h3>
+            <textarea id="address" class="address" placeholder="Enter your address">
+
+            </textarea>
+
+            <h3>पता</h3>
+            <textarea id="hindiAddress" class="address" placeholder="पता लिखें">
+
+            </textarea> <br>
+           </address>
+           <input type="submit" value="Submit" id="submit" class="submit">
+        </form>
+    </main>
+</body>
+<script src="index.js"></script>
+</html>

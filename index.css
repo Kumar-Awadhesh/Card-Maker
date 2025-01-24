@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+}
+
+.container{
+    display: flex;
+    gap: 10px;
+    width: 90%;
+    margin: auto;
+}
+
+.form{
+    margin: auto;
+    padding: 40px 0 0 0;
+    border: 1px solid blue;
+    text-align: center;
+    
+}
+
+.gender{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+
+.gender, .form>input{
+    width: 300px;
+    height: 40px;
+    margin: 0 20px 50px 0;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+.homeAddress{
+    display: flex;
+    gap: 20px;
+    width: 80%;
+    margin: auto;
+}
+
+.address{
+    width: 400px;
+    height: 100px;
+    margin-bottom: 40px;
+}
+
+.englishAddressContainer{
+    width: 350px;
+    height: 100px;
+    margin-top: 15px;
+}
+
+.card{
+    width: 15cm;
+    height: 9cm;
+    margin-top: 40px;
+    border-top: 2px dashed ;
+    border-left: 3px solid;
+    border-bottom: 3px solid;
+    border-right: 3px solid;
+    padding-top: 7px;
+   
+}
+
+.nameAndImage{
+    display: flex;
+    gap: 20px;
+    margin: 10px 0 0 40px;
+
+}
+
+.photo{
+    width: 110px;
+    height: 140px;
+}
+
+.aadhaar{
+    text-align: center;
+}
+
+.aadhaarLogo{
+    width: 90%;
+    height: 65px;
+
+}
+
+.aadhaarNumber{
+    margin: auto;
+    text-align: center;
+    margin-top: 40px;
+    border-bottom: 3px solid rgb(219, 55, 55);
+}
+
+.backAadhaarNumber{
+    margin: auto;
+    text-align: center;
+    border-bottom: 3px solid rgb(219, 55, 55);
+    margin-top: 9px;
+}
+
+.tagLine{
+    text-align: center;
+    margin-top: 5px;
+}
+
+.tag{
+    width: 60%;
+    height: 30px;
+}
+
+.cardBack{
+    width: 15cm;
+    height: 9cm;
+    margin-top: 40px;
+    border-top: 2px dashed ;
+    border-left: 3px solid;
+    border-bottom: 3px solid;
+    border-right: 3px solid;
+    padding-top: 7px;
+}
+
+.mainContainer{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.site{
+    width: 90%;
+}
+
+.qrCode{
+    width: 180px;
+    height: 180px;
+}
